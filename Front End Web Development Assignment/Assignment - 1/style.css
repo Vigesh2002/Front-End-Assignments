@@ -1,0 +1,48 @@
+body{
+    background-color: #00ffff;
+}
+
+body a{
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#coffee{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tea{
+    text-decoration: underline;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+img{
+    
+    width: 100%;
+    height: auto;
+}
+
+#one{
+    margin: 0px 50px 0px 50px
+}
+
+#two {
+    margin: 0px 50px 0px 50px
+}
+
+#three {
+    margin: 0px 50px 0px 50px
+}
+
+#four {
+    margin: 0px 50px 0px 50px
+}
+
+#five {
+    margin: 0px 50px 0px 50px
+}
