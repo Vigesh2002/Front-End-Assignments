@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@700&family=Bruno+Ace+SC&family=Kalam:wght@700&family=Righteous&family=Vina+Sans&display=swap');
+
+body{
+    background-color: #C5C5C5;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+
+div .one{
+    text-align: left;
+    padding: 0px 22rem 0px 0px;
+    text-align: justify;
+    margin: 5rem 0px 5rem 25px;
+    background-image: url(/img/cat1.jpg);
+    background-repeat: no-repeat;
+    background-size: 325px 250px;
+    background-position: right;
+    font-family: 'Kalam', cursive;
+}
+
+div .two{
+    text-align: right;
+    padding: 0px 25px 0px 22rem;
+    text-align: justify;
+    margin: 5rem 0px 5rem 25px;
+    background-image: url(/img/cat3.jpg);
+    background-repeat: no-repeat;
+    background-size: 325px 250px;
+    background-position: left;
+    font-family: 'Kalam', cursive;
+}
+
+div .three{
+    margin: 5rem 0px;
+    text-align: center;
+    text-align: justify;
+    background-image: url(/img/cat2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 2rem;
+    color: #ffffff;
+    font-family: 'Kalam', cursive;
+}
+
+div .four{
+    text-align: left;
+    padding: 0px 22rem 0px 0px;
+    text-align: justify;
+    margin: 5rem 0px 5rem 25px;
+    background-image: url(/img/cat1.jpg);
+    background-repeat: no-repeat;
+    background-size: 325px 250px;
+    background-position: right;
+    font-family: 'Kalam', cursive;
+}
+
+div .five{
+    text-align: right;
+    padding: 0px 25px 0px 22rem;
+    text-align: justify;
+    margin: 5rem 0px 5rem 25px;
+    background-image: url(/img/cat3.jpg);
+    background-repeat: no-repeat;
+    background-size: 325px 250px;
+    background-position: left;
+    font-family: 'Kalam', cursive;
+}
