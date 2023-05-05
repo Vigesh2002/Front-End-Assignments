@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    text-align: center;
+    color: #FCDC4D;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: 'Lobster', cursive;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    background-color: #000000;
+    padding: 20px;
+    width: 50rem;
+    height: 50rem;
+}
+
+.grid-container>div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding: 7rem 0rem 5rem 0rem;
+}
