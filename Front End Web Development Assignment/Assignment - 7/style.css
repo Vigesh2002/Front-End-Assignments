@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Silkscreen&display=swap');
+
+#two{
+    background-image: url(/img/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 500px;
+    width: 700px;
+    height: 500px;
+    margin: 5rem 20rem;
+}
+
+.one,h1,form{
+    text-align: center;
+}
+
+.one,h1{
+    padding: 2rem 0rem 0rem 0rem;
+    text-decoration: underline;
+    font-family: 'Silkscreen', cursive;
+}
+
+.one>form{
+    padding: 2rem 0rem 10rem 0rem;   
+}
+
+#fname{
+    font-size: 17px;
+    font-family: 'Crete Round', serif;
+}
+
+#lname{
+    font-size: 17px;
+    font-family: 'Crete Round', serif;
+}
+
+#email{
+    font-size: 17px;
+    font-family: 'Crete Round', serif;
+}
+
+#password{
+    font-size: 17px;
+    font-family: 'Crete Round', serif;
+}
+
+.two,.one,form>#one1{
+    margin: 2rem 0 0 0 ;
+    font-size: 20px;
+    padding: 5px 30px;
+}
