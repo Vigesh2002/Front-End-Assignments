@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,500&family=Merriweather:ital,wght@1,900&display=swap');
+
+body{
+    background-color: #50514F;
+}
+
+#head{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px #ffffff;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+#one{
+    background: url(/img/yn553k4gdhpc4hlh.jpg);
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    margin: 3rem 8rem 0rem 8rem;
+}
+
+#one{
+    display: flex;
+    justify-content: space-around;
+    padding: 25rem 0 0 0 ;
+}
+
+p{
+    background-color: #ff5900;
+    width: 200px;
+    height: 100px;
+    padding: 25px 0px 0px 0px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+p .bi{
+    padding: 10px 0px 0px 22px;
+}
+
+.call{
+    padding: 0px 0px 0px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.details{
+    padding: 0px 0px 20px 32px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p .map{
+    padding: 0px 0px 20px 25px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p .time{
+    padding: 0px 0px 20px 25px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.container-items{
+    text-align: center;
+    font-size: small;
+}
+
+.bi{
+    padding: 3px;
+}
+
+h5{
+    text-align: center;
+}
