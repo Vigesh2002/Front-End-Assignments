@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nanum+Gothic+Coding:wght@700&family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #fae5a6;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    width: 131px;
+    height: 60px;
+    position: relative;
+    right: 3rem;
+    top: 5px;
+}
+
+.goku li{
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.goku{
+    position: relative;
+    right: 10rem;
+}
+
+.vegeta{
+    padding: 8px 20px;
+    background-color: #b6d47e;
+    border-left: 1.5px solid #000000;
+}
+
+.marginbu{
+    border: 0px;
+    border-radius: 20% 0% 0% 20% / 50% 0% 100% 50% ;
+}
+
+.gohan{
+    border-left: 1.5px solid #000000;
+    border-radius: 0% 15% 15% 0% / 0% 50% 50% 100% 
+}
+
+
+.vegeta .eren {
+    text-decoration: none;
+    color: #387ed1;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+.vegeta .eren:hover {
+    color: #000000;
+    text-decoration: underline;
+    z-index: 10px;
+}
+
+.marginbu .cow{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.marginbu .cow:hover{
+    text-decoration: none;
+}
+
+/* Nav bar end */
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: #b6b6b6;
+    padding-top: 4px;
+    margin-top: 64px;
+}
+
+.cook {
+    width: 358px;
+    height: 302px;
+    object-fit: cover;
+    position: relative;
+    top: 4.3px;
+}
+
+.eat {
+    width: 358px;
+    height: 302px;
+    object-fit: cover;
+    position: relative;
+    left: 0rem;
+    top: 4.3px;
+}
+
+.header{
+    text-align: center;
+    background-color: #b6d47e;
+    position: relative;
+    top: 4px;
+    width: 547px;
+    height: 292px;
+    padding-top: 10px;
+}
+
+.shop{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: #003d4d;
+}
+
+.support{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #20303c;
+}
+
+.community{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #20303c;
+}
+
+.local{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #20303c;
+}
+
+/* Second content style End */
+
+.second{
+    background-color: #eaffc4;
+    margin-top: 5px;
+    height: 730px;
+}
+
+.slayer{
+    width: 640px;
+    height: 260px"
+}
+
+.slayer{
+    margin-left: 21.5rem;
+    margin-top: 2rem;
+}
+
+.whether{
+    margin-left: 10rem;
+    font-size: 20px;
+    color: #007b9a;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.titan{
+    background-color: #b6d47e;
+    height: 330px;
+    position: relative;
+    top: 8px;
+}
+
+.nezuko{
+    background-color: #387ed1;
+    position: relative;
+    top: 8px;
+}
+
+.fk{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.ok {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.ak {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.pk {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.things, .places, .where, .find{
+    color:#ffffff;
+}
+
+.experience{
+    margin-left: 3rem;
+    margin-right: 2.5rem;
+    font-size: 20px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.exciting{
+    margin-left: 3rem;
+    margin-right: 2.5rem;
+    font-size: 20px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.visiting{
+    margin-left: 3rem;
+        margin-right: 2.5rem;
+        font-size: 20px;
+        font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.most{
+    margin-left: 3rem;
+        margin-right: 2.5rem;
+        font-size: 20px;
+        font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.Link{
+    margin-left: 3rem;
+    font-size: 30px;
+}
+.Link:hover{
+    font-size: 20px;
+}
+
+.bi{
+    margin-top: 3rem;
+}
+
+
+.vigesh{
+    position: relative;
+    top: 6.1rem;
+    color:#ffffff;
+}
+
+.anu{
+    position: relative;
+    top: 4.8rem;
+    color: #ffffff;
+}
+
+.vikram{
+    position: relative;
+    top: 4.7rem;
+    color: #ffffff;
+}
+
+.lavanya{
+    position: relative;
+    top: 5rem;
+    color: #ffffff;
+}
+
+/* Second main content style end */
+
+.slider{
+    background-image: url(img/2f3d15_96b944600b77429baa750a37b3e1b22f~mv2_d_1800_1350_s_2.webp);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+    animation: slider 19s ease infinite;
+}
+
+@keyframes slider {
+    0%{
+        background-image: url(img/2f3d15_96b944600b77429baa750a37b3e1b22f~mv2_d_1800_1350_s_2.webp);
+    }
+    15%{
+        background-image: url(img/5e495e_6c9783bf79944efc877bb3392d66a56d~mv2.webp);
+    }
+    30%{
+        background-image: url(img/5e495e_af0887cc634644c886547dd12205d915~mv2.webp);
+    }
+    45%{
+        background-image: url(img/5e495e_2ad5a80286da42259a6fea5e1cd191c1~mv2.webp);
+    }
+    60%{
+        background-image: url(img/5e495e_7cfb00a882674cab9be2b44eb14ae4f7~mv2.webp);
+    }
+    75%{
+        background-image: url(img/5e495e_47a2a16d5dbd4a84bc3e1bc3625cbd68~mv2.webp);
+    }
+    90%{
+        background-image: url(img/5e495e_25702fd9d924447382e49d1e4e7ce0b0~mv2.webp);
+    }
+    100%{
+        background-image: url(img/5e495e_28b7c7800df444ea80e6ff949e9238d1~mv2.webp);
+    }
+}
+
+/* Footer style Starts */
+
+.footer{
+    background-color: #fae5a6;
+}
+
+.dog{
+    width: 250px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 33rem;
+}
+
+.cat{
+    margin-top: 10px;
+    margin-left: 27rem;
+    font-size: 20px;
+    color: #007b9a;
+}
+
+.goat{
+    margin-top: 10px;
+    margin-left: 27rem;
+    font-size: 20px;
+    color: #007b9a;
+}
+
+.peacock{
+    margin-top: 4.5rem;
+    margin-left: 33rem;
+    padding-bottom: 3rem;
+    color: #007b9a;
+}
