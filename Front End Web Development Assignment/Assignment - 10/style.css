@@ -10,7 +10,6 @@ body{
 
 h2{
     color: #fff;
-    
 }
 
 .circle{
@@ -24,7 +23,7 @@ h2{
 
 .circle:hover{
     border-radius: 100%;
-    background-color: #20A4F3;
+    background-image: linear-gradient(to right, red, yellow);
 }
 
 .triangle{
@@ -59,7 +58,7 @@ h2{
     height: 250px;
     margin: 0 26rem;
     border-radius: 0;
-    background-color: #F24236;
+    background-image: radial-gradient(circle, red, yellow, green);
 }
 
 .oval{
