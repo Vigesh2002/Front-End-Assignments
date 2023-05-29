@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Nav bar style Start */                                                        
+
+.navbar{
+    background-color: #ffffff;
+    padding: 15px 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 150px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.unorederlist li{
+    display: inline-block;
+    margin-right: 42px;
+    position: relative;
+    left: 17rem;
+}
+
+.list .link{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+.list .link:hover{
+    color: #387ed1;
+    text-decoration: underline;
+}
+/* Nav bar style End */
+
+/* Main content style Start */
+.container > .landing{
+    width: 500px;
+    height: 270px;
+    margin-left: 24rem;
+    position: relative;
+    top: 4.5rem;
+}
+
+.container > .invest{
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 26.5rem;
+    position: relative;
+    top: 5.5rem;
+}
+
+.container > .online{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 19rem;
+    position: relative;
+    top: 7rem;
+}
+
+.container > .sign{
+    margin-left: 32rem;
+    margin-top: 2rem;
+    width: 250px;
+    height: 45px;
+    font-size: 25px;
+    background-color: #387ed1;
+    border: 0px solid #387ed1;
+    border-radius: 5px;
+    position: relative;
+    top: 9rem;
+}
+
+.container .now{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container > .sign:hover{
+    background-color: #000000;
+}
+/* Main content style End */
+
+/* Second main content style Start */
+
+.italy {
+    background: url(/img/largest-broker.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 4rem;
+    width: 40%;
+    height: 600px;
+    margin-top: 15rem;
+}
+
+.rusia {
+    position: relative;
+    left: 38.8rem;
+    top: 10rem;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+.france {
+    position: relative;
+    left: 39rem;
+    top: 11rem;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.uk {
+    position: relative;
+    left: 35.8rem;
+    top: 12rem;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.uk .pk{
+    margin-top: 15px;
+    margin-left: 32px;
+}
+
+.csk {
+    position: relative;
+    left: -5.8rem;
+    top: 0rem;
+}
+
+.mi {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 45rem;
+    top: 14rem;
+}
+/* Second main content style Start */
+/* Third main content style Start */
+.notherland{
+    margin-top: 3rem;
+}
+
+.notherland > .america{
+    margin-left: 28.2rem;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.notherland > .chennai{
+    margin-left: 25rem;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.notherland .bengalore{
+    width: 1100px;
+    height: 500px;
+    margin-left: 5rem;
+}
+
+.ambur{
+    position: relative;
+    top: 2rem;
+    left: 34.2rem;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #387ed1;
+}
+
+.ambur:hover{
+    color: #000000;
+}
+/* Third main content style End */
+
+/* Forth main content style Start */
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.unbeatable {
+    text-align: left;
+    margin-top: 7rem;
+    margin-left: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+
+.concept {
+    text-align: left;
+    margin-left: 7rem;
+    margin-right: 10rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.see{
+    margin-left: 7rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: #387ed1;
+}
+
+.see:hover{
+    color: #000000;
+}
+
+.mango{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+    right: 5rem;
+}
+
+.bi-currency-rupee{
+    font-size: 40px;
+}
+
+.grape{
+    font-size: 40px;
+}
+
+.fox{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.apple{
+    border: 1px solid #000000;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 3rem;
+}
+
+.cherry{
+    border: 1px solid #000000;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 3rem 25px 3rem;
+}
+
+
+/* Forth main content style End */
+
+
+/* Fifth main content style Start */
+
+.dog {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.cat {
+    width: 400px;
+    height: 350px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.goat {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.parrot {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.ox{
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.peacock {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #387ed1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.peacock:hover {
+    color: #000000;
+}
+
+.duck {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #387ed1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.duck:hover {
+    color: #000000;
+}
+
+/* Fifth main content style End */
+
+
+/* Sixth main content style Start */
+
+.account {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    margin-top: 8rem;
+}
+
+.trades {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.let {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 30rem;
+    top: 3rem;
+    width: 300px;
+    height: 50px;
+    background-color: #000000;
+    border: 0px solid #387ed1;
+    border-radius: 5px;
+}
+
+.let:hover {
+    background-color: #387ed1;
+}
+
+.let .go {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sixth main content style End */
+
+/* Seventh main content style Start */
+
+.bike{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 13rem;
+}
+
+.kavasaki{
+    width: 150px;
+    height: 20px;
+    position: relative;
+    top: 1.7rem;
+    left: 4rem;
+}
+
+.s1000rr{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.z900{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.duke{
+    list-style: none;
+}
+
+.goku{
+    position: relative;
+    top: 3rem;
+    left: 1.7rem;
+    margin-left: 35px;
+}
+
+.bi-twitter{
+    font-size: 25px;
+}
+
+.bi-facebook {
+    font-size: 25px;
+}
+
+.bi-instagram {
+    font-size: 25px;
+}
+
+.bi-linkedin {
+    font-size: 25px;
+}
+
+.bi-telegram {
+    font-size: 25px;
+}
+
+.eren{
+    color: #000000;
+}
+
+.eren:hover{
+    color: #387ed1;
+}
+
+.ktm{
+    font-family: 'Inter', sans-serif;
+}
+
+.bird{
+    padding-top: 1rem;
+}
+
+.book{
+    text-decoration: none;
+    color: #000000;
+}
+
+.book:hover{
+    color: #387ed1;
+}
+/* Seventh main content style End */
+
+/* End style Start */
+.aot{
+    margin: 2rem 5rem 2rem 5rem;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+}
+
+.obito{
+    text-decoration: none;
+    color: #387ed1;
+}
+
+.obito:hover{
+    color: #000000;
+    font-weight: bolder;
+}
+
+.hashirama{
+    margin: 0rem 0rem 2rem 1rem;
+    font-size: 13px;
+    position: relative;
+    left: 11rem;
+}
+
+.madara{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.madara:hover{
+    color: #387ed1;
+}
+/* End style End */
