@@ -1,0 +1,30 @@
+*{
+    margin: 0px 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500% 500%;
+    animation: slide 5s linear infinite;
+    transition: 2s;
+}
+@keyframes slide {
+    0%   {background-position: 0%;}
+    50% { background-position: 100%;}
+    100%    {background-position: 0%; }
+}
+
+div{ 
+    object-fit: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 100vh;
+}
