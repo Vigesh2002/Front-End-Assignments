@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 250px;
+    height: 320px;
+    transition: all 1s;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-inner {
+    width: inherit;
+    height: inherit;
+    background: #ffffff0d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+.card-inner .logo{
+    width: 220px;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 15px 0px 0 15px;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffffff;
+    background-image: url(img/IMG_20220330_100706.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -0px -25px;
+}
+
+.par1 {
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    left: 18px;
+    margin-right: 45px;
+    text-align: justify;
+}
+
+.card:hover {
+    transform: scale(2);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    z-index: -11111;
+    background: radial-gradient(#b0e633, #53ef7d);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+    top: -40px;
+    left: -40px;
+}
+
+.circle:nth-child(2) {
+    bottom: -55px;
+    right: -55px;
+    animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+    from{
+        transform: translateX(-30px);
+    }
+    to {
+        transform: translateY(-25px);
+    }
+}
+
+@keyframes move-down1 {
+    from{
+        transform: translateX(30px);
+    }
+    to {
+        transform: translateY(25px);
+    }
+}
+
+.head3{
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 18px;
+}
+
+.text.sec-text{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: anime 4s ease infinite;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@keyframes anime{
+        0%,
+        10%,
+        100% {
+            background-size: 0%;
+        }
+    
+        70%,
+        90% {
+            background-size: 100%;
+        }
+}

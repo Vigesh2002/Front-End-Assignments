@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Transparent Card Animation</title>
+</head>
+
+<body id="one">
+        <div class="card">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="card-inner">
+                <div class="logo"></div>
+                <h3 class="head3">I'm a <span class="text sec-text">Developer</span></h3>
+                <p class="par1">"Bad programmers worry about the code. Good programmers worry about data structures and their
+                    relationships"</p>
+            </div>
+        </div>
+
+    <script src="function.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+    <script>
+        VANTA.BIRDS({
+            el: "#one",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x0,
+            birdSize: 0.50,
+            speedLimit: 8.00,
+            separation: 100.00,
+            alignment: 100.00,
+            cohesion: 10.00
+        })
+        </script>
+</body>
+
+</html>
