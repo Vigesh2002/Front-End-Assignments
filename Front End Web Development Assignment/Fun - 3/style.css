@@ -1,0 +1,123 @@
+.gallery {
+    --s: 250px;
+    /* the size */
+
+    display: grid;
+    transform-style: preserve-3d;
+    --_p: perspective(calc(2.5*var(--s)));
+    animation: r 9s infinite cubic-bezier(.5, -0.5, .5, 1.5);
+}
+
+.gallery img {
+    grid-area: 1/1;
+    width: var(--s);
+    aspect-ratio: 1;
+    object-fit: cover;
+    transform: var(--_t, ) translateZ(calc(var(--s)/2));
+}
+
+.gallery img:nth-child(2) {
+    --_t: rotateX(-90deg)
+}
+
+.gallery img:nth-child(3) {
+    --_t: rotateY(90deg) rotate(-90deg)
+}
+
+.gallery img:nth-child(4) {
+    --_t: rotateX(180deg) rotate(90deg)
+}
+
+.gallery img:nth-child(5) {
+    --_t: rotateX(90deg) rotate(90deg)
+}
+
+.gallery img:nth-child(6) {
+    --_t: rotateY(-90deg)
+}
+
+@keyframes r {
+
+    0%,
+    3% {
+        transform: var(--_p)
+    }
+
+    14%,
+    19% {
+        transform: var(--_p) rotateX(90deg)
+    }
+
+    31%,
+    36% {
+        transform: var(--_p) rotateX(90deg) rotateZ(90deg)
+    }
+
+    47%,
+    52% {
+        transform: var(--_p) rotateX(90deg) rotateZ(90deg) rotateY(-90deg)
+    }
+
+    64%,
+    69% {
+        transform: var(--_p) rotateX(90deg) rotateZ(90deg) rotateY(-90deg) rotateX(90deg)
+    }
+
+    81%,
+    86% {
+        transform: var(--_p) rotateX(90deg) rotateZ(90deg) rotateY(-90deg) rotateX(90deg) rotateZ(90deg)
+    }
+
+    97%,
+    100% {
+        transform: var(--_p) rotateX(90deg) rotateZ(90deg) rotateY(-90deg) rotateX(90deg) rotateZ(90deg) rotateY(-90deg)
+    }
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: #556270;
+    animation: b 9s infinite;
+}
+
+@keyframes b {
+
+    0%,
+    3% {
+        background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    }
+
+    14%,
+    19% {
+        background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    }
+
+    31%,
+    36% {
+        background: linear-gradient(90deg, hsla(284, 100%, 53%, 1) 0%, hsla(77, 100%, 64%, 1) 100%);
+    }
+
+    45%,
+    55% {
+        background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    }
+
+    64%,
+    69% {
+        background: linear-gradient(90deg, hsla(31, 90%, 76%, 1) 0%, hsla(302, 82%, 76%, 1) 100%);
+    }
+
+    81%,
+    86% {
+        background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    }
+
+    97%,
+    to {
+        background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+    }
+}
